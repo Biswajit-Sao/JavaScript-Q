@@ -19,3 +19,7 @@ age=27; //✔
 const PI=3.14;
 // PI=3.1415; Error
 // const PI=3.1415; Error
+
+const student = { name: "Ram" };
+student.name = "Bisu"; // ✅ OK
+// student = {}; ❌ Error
